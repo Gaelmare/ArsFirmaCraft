@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Gaelmare<2gaelmare@gmail.com> and Neusion",
   "name": "ArsFirmaCraft",
   "files": [
@@ -124,6 +124,17 @@
       "required": true,
       "__meta": {
         "name": "Xaero's Minimap"
+      }
+    },
+    {
+      "projectID": 265917,
+      "fileID": 4999754,
+      "required": true,
+      "__meta": {
+        "name": "JEI Integration",
+        "dependencies": [
+          238222
+        ]
       }
     },
     {
