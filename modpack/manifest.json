@@ -1,0 +1,769 @@
+{
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "forge-47.3.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "0.0.2",
+  "author": "Gaelmare<2gaelmare@gmail.com> and Neusion",
+  "name": "ArsFirmaCraft",
+  "files": [
+    {
+      "projectID": 60089,
+      "fileID": 5338457,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
+      "projectID": 233019,
+      "fileID": 4578262,
+      "required": true,
+      "__meta": {
+        "name": "AI Improvements"
+      }
+    },
+    {
+      "projectID": 237541,
+      "fileID": 5779403,
+      "required": true,
+      "__meta": {
+        "name": "Totemic"
+      }
+    },
+    {
+      "projectID": 238086,
+      "fileID": 5853326,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS",
+        "explicit": false,
+        "dependencies": [
+          419699,
+          416294
+        ]
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 5846810,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
+      "projectID": 240630,
+      "fileID": 5057220,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)"
+      }
+    },
+    {
+      "projectID": 245755,
+      "fileID": 5841750,
+      "required": true,
+      "__meta": {
+        "name": "Waystones",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
+      "projectID": 250398,
+      "fileID": 4646682,
+      "required": true,
+      "__meta": {
+        "name": "Controlling",
+        "dependencies": [
+          858542
+        ]
+      }
+    },
+    {
+      "projectID": 252848,
+      "fileID": 4712189,
+      "required": true,
+      "__meta": {
+        "name": "Nature's Compass"
+      }
+    },
+    {
+      "projectID": 254284,
+      "fileID": 5844477,
+      "required": true,
+      "__meta": {
+        "name": "AmbientSounds 6",
+        "dependencies": [
+          257814
+        ]
+      }
+    },
+    {
+      "projectID": 257814,
+      "fileID": 5880305,
+      "required": true,
+      "__meta": {
+        "name": "CreativeCore",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 263420,
+      "fileID": 5862235,
+      "required": true,
+      "__meta": {
+        "name": "Xaero's Minimap"
+      }
+    },
+    {
+      "projectID": 276951,
+      "fileID": 5503516,
+      "required": true,
+      "__meta": {
+        "name": "Comforts (Fabric/Forge/Quilt)"
+      }
+    },
+    {
+      "projectID": 278717,
+      "fileID": 5378497,
+      "required": true,
+      "__meta": {
+        "name": "Sit"
+      }
+    },
+    {
+      "projectID": 302973,
+      "fileID": 5557148,
+      "required": true,
+      "__meta": {
+        "name": "TerraFirmaCraft",
+        "dependencies": [
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 306770,
+      "fileID": 4966125,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 309927,
+      "fileID": 5843594,
+      "required": true,
+      "__meta": {
+        "name": "Curios API (Forge/NeoForge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 312353,
+      "fileID": 5693342,
+      "required": true,
+      "__meta": {
+        "name": "Artifacts",
+        "dependencies": [
+          348521,
+          419699,
+          309927
+        ]
+      }
+    },
+    {
+      "projectID": 316582,
+      "fileID": 5816907,
+      "required": true,
+      "__meta": {
+        "name": "Corpse"
+      }
+    },
+    {
+      "projectID": 317780,
+      "fileID": 5658224,
+      "required": true,
+      "__meta": {
+        "name": "Xaero's World Map"
+      }
+    },
+    {
+      "projectID": 324717,
+      "fileID": 5876199,
+      "required": true,
+      "__meta": {
+        "name": "Jade 🔍"
+      }
+    },
+    {
+      "projectID": 324973,
+      "fileID": 4612224,
+      "required": true,
+      "__meta": {
+        "name": "Dungeon Crawl"
+      }
+    },
+    {
+      "projectID": 342584,
+      "fileID": 5840216,
+      "required": true,
+      "__meta": {
+        "name": "Collective"
+      }
+    },
+    {
+      "projectID": 348521,
+      "fileID": 5729105,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 351264,
+      "fileID": 5402061,
+      "required": true,
+      "__meta": {
+        "name": "Kotlin for Forge",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 361026,
+      "fileID": 5920163,
+      "required": true,
+      "__meta": {
+        "name": "Occultism",
+        "explicit": false,
+        "dependencies": [
+          661293,
+          538392,
+          388172,
+          309927
+        ]
+      }
+    },
+    {
+      "projectID": 375272,
+      "fileID": 4799043,
+      "required": true,
+      "__meta": {
+        "name": "Lava Clear View (Forge)"
+      }
+    },
+    {
+      "projectID": 388172,
+      "fileID": 5675230,
+      "required": true,
+      "__meta": {
+        "name": "GeckoLib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 400514,
+      "fileID": 5724570,
+      "required": true,
+      "__meta": {
+        "name": "Easy Villagers"
+      }
+    },
+    {
+      "projectID": 401955,
+      "fileID": 5894609,
+      "required": true,
+      "__meta": {
+        "name": "Ars Nouveau"
+      }
+    },
+    {
+      "projectID": 416294,
+      "fileID": 5655836,
+      "required": true,
+      "__meta": {
+        "name": "Rhino",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 417645,
+      "fileID": 4587024,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Professions (JEP)",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 5137938,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge/NeoForge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 422301,
+      "fileID": 5927505,
+      "required": true,
+      "__meta": {
+        "name": "Sophisticated Backpacks",
+        "dependencies": [
+          618298
+        ]
+      }
+    },
+    {
+      "projectID": 429235,
+      "fileID": 4810975,
+      "required": true,
+      "__meta": {
+        "name": "FerriteCore ((Neo)Forge)"
+      }
+    },
+    {
+      "projectID": 447359,
+      "fileID": 5572100,
+      "required": true,
+      "__meta": {
+        "name": "Passive Shield",
+        "dependencies": [
+          342584
+        ]
+      }
+    },
+    {
+      "projectID": 448233,
+      "fileID": 5866395,
+      "required": true,
+      "__meta": {
+        "name": "Entity Culling Fabric/Forge"
+      }
+    },
+    {
+      "projectID": 453394,
+      "fileID": 5914955,
+      "required": true,
+      "__meta": {
+        "name": "FirmaLife",
+        "dependencies": [
+          302973
+        ]
+      }
+    },
+    {
+      "projectID": 463402,
+      "fileID": 5383797,
+      "required": true,
+      "__meta": {
+        "name": "Custom Villager Trades (Forge)"
+      }
+    },
+    {
+      "projectID": 491794,
+      "fileID": 4712194,
+      "required": true,
+      "__meta": {
+        "name": "Explorer's Compass"
+      }
+    },
+    {
+      "projectID": 495267,
+      "fileID": 5806368,
+      "required": true,
+      "__meta": {
+        "name": "Inventory Profiles Next",
+        "dependencies": [
+          351264,
+          679177
+        ]
+      }
+    },
+    {
+      "projectID": 520973,
+      "fileID": 5802811,
+      "required": true,
+      "__meta": {
+        "name": "Cartography"
+      }
+    },
+    {
+      "projectID": 525693,
+      "fileID": 5154371,
+      "required": true,
+      "__meta": {
+        "name": "Occultism KubeJS",
+        "dependencies": [
+          361026,
+          238086
+        ]
+      }
+    },
+    {
+      "projectID": 531761,
+      "fileID": 5644976,
+      "required": true,
+      "__meta": {
+        "name": "Balm",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 538392,
+      "fileID": 5786081,
+      "required": true,
+      "__meta": {
+        "name": "Modonomicon",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 551736,
+      "fileID": 4731947,
+      "required": true,
+      "__meta": {
+        "name": "Sodium/Embeddium Dynamic Lights"
+      }
+    },
+    {
+      "projectID": 556708,
+      "fileID": 4674619,
+      "required": true,
+      "__meta": {
+        "name": "Caelum",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 557556,
+      "fileID": 4922027,
+      "required": true,
+      "__meta": {
+        "name": "Responsive Shields"
+      }
+    },
+    {
+      "projectID": 558905,
+      "fileID": 4632207,
+      "required": true,
+      "__meta": {
+        "name": "Sodium/Embeddium Extras"
+      }
+    },
+    {
+      "projectID": 560595,
+      "fileID": 4813803,
+      "required": true,
+      "__meta": {
+        "name": "Too Many Glyphs",
+        "dependencies": [
+          401955
+        ]
+      }
+    },
+    {
+      "projectID": 561470,
+      "fileID": 5902462,
+      "required": true,
+      "__meta": {
+        "name": "Ars Elemental",
+        "dependencies": [
+          401955
+        ]
+      }
+    },
+    {
+      "projectID": 585406,
+      "fileID": 5227399,
+      "required": true,
+      "__meta": {
+        "name": "ProbeJS",
+        "dependencies": [
+          238086
+        ]
+      }
+    },
+    {
+      "projectID": 618298,
+      "fileID": 5935142,
+      "required": true,
+      "__meta": {
+        "name": "Sophisticated Core",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 626527,
+      "fileID": 5812075,
+      "required": true,
+      "__meta": {
+        "name": "Blaze Map"
+      }
+    },
+    {
+      "projectID": 626699,
+      "fileID": 5511218,
+      "required": true,
+      "__meta": {
+        "name": "Infinite Lava"
+      }
+    },
+    {
+      "projectID": 626761,
+      "fileID": 4923828,
+      "required": true,
+      "__meta": {
+        "name": "Towns and Towers",
+        "dependencies": [
+          856996
+        ]
+      }
+    },
+    {
+      "projectID": 634392,
+      "fileID": 4772710,
+      "required": true,
+      "__meta": {
+        "name": "NaNny (Fix NaN Health / Absorption)"
+      }
+    },
+    {
+      "projectID": 661293,
+      "fileID": 5654977,
+      "required": true,
+      "__meta": {
+        "name": "SmartBrainLib (Forge/Fabric/Quilt)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 662156,
+      "fileID": 4944918,
+      "required": true,
+      "__meta": {
+        "name": "Barrels 2012",
+        "dependencies": [
+          302973,
+          309927
+        ]
+      }
+    },
+    {
+      "projectID": 664832,
+      "fileID": 5538604,
+      "required": true,
+      "__meta": {
+        "name": "Vexxed Visuals: TerraFirmaCraft"
+      }
+    },
+    {
+      "projectID": 679177,
+      "fileID": 5208511,
+      "required": true,
+      "__meta": {
+        "name": "libIPN",
+        "explicit": false,
+        "dependencies": [
+          351264
+        ]
+      }
+    },
+    {
+      "projectID": 695822,
+      "fileID": 5804953,
+      "required": true,
+      "__meta": {
+        "name": "Sacks 'N Such",
+        "dependencies": [
+          302973
+        ]
+      }
+    },
+    {
+      "projectID": 714158,
+      "fileID": 5737719,
+      "required": true,
+      "__meta": {
+        "name": "Firma: Civilization (TFC)",
+        "dependencies": [
+          302973,
+          1068445
+        ]
+      }
+    },
+    {
+      "projectID": 790626,
+      "fileID": 5876359,
+      "required": true,
+      "__meta": {
+        "name": "ModernFix"
+      }
+    },
+    {
+      "projectID": 833926,
+      "fileID": 4920407,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS Ars Nouveau",
+        "dependencies": [
+          401955,
+          238086
+        ]
+      }
+    },
+    {
+      "projectID": 838993,
+      "fileID": 4964731,
+      "required": true,
+      "__meta": {
+        "name": "TFCGyres-OreHints",
+        "dependencies": [
+          302973
+        ]
+      }
+    },
+    {
+      "projectID": 841001,
+      "fileID": 5915224,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS TFC"
+      }
+    },
+    {
+      "projectID": 844019,
+      "fileID": 5797400,
+      "required": true,
+      "__meta": {
+        "name": "Astikor Carts TFC",
+        "dependencies": [
+          302973,
+          916493
+        ]
+      }
+    },
+    {
+      "projectID": 856996,
+      "fileID": 5869180,
+      "required": true,
+      "__meta": {
+        "name": "Cristel Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 858542,
+      "fileID": 5284015,
+      "required": true,
+      "__meta": {
+        "name": "Searchables",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 876210,
+      "fileID": 4706940,
+      "required": true,
+      "__meta": {
+        "name": "Crawl on Demand"
+      }
+    },
+    {
+      "projectID": 887484,
+      "fileID": 4637926,
+      "required": true,
+      "__meta": {
+        "name": "Xaero's Minimap & World Map - Waystones Compatibility [Forge]",
+        "dependencies": [
+          245755
+        ]
+      }
+    },
+    {
+      "projectID": 907843,
+      "fileID": 5172064,
+      "required": true,
+      "__meta": {
+        "name": "Ars Ocultas",
+        "dependencies": [
+          401955,
+          361026
+        ]
+      }
+    },
+    {
+      "projectID": 908741,
+      "fileID": 4984832,
+      "required": true,
+      "__meta": {
+        "name": "Embeddium"
+      }
+    },
+    {
+      "projectID": 916493,
+      "fileID": 5574685,
+      "required": true,
+      "__meta": {
+        "name": "AstikorCarts Redux",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 999031,
+      "fileID": 5307466,
+      "required": true,
+      "__meta": {
+        "name": "TFC Caelum",
+        "dependencies": [
+          556708,
+          302973
+        ]
+      }
+    },
+    {
+      "projectID": 1068445,
+      "fileID": 5815914,
+      "required": true,
+      "__meta": {
+        "name": "aleki's Nifty Ships",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 1106443,
+      "fileID": 5741679,
+      "required": true,
+      "__meta": {
+        "name": "Swim In Lava"
+      }
+    },
+    {
+      "projectID": 1113980,
+      "fileID": 5878796,
+      "required": true,
+      "__meta": {
+        "name": "Beneath",
+        "dependencies": [
+          302973
+        ]
+      }
+    }
+  ]
+}
