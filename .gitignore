@@ -8,3 +8,4 @@ cacert.pem
 ### Modpack ###
 .out/
 server
+logs

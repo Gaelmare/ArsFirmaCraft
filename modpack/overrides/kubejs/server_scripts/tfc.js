@@ -179,7 +179,7 @@ ServerEvents.recipes(event => {
   event.recipes.tfc.welding('tfc:metal/double_sheet/black_steel', 'tfc:metal/sheet/black_steel', 'tfc:metal/sheet/black_steel',5)
   event.recipes.tfc.welding('tfc:metal/double_sheet/blue_steel', 'tfc:metal/sheet/blue_steel', 'tfc:metal/sheet/blue_steel',6)
   event.recipes.tfc.welding('tfc:metal/double_sheet/red_steel', 'tfc:metal/sheet/red_steel', 'tfc:metal/sheet/red_steel',6)
-  )
+
 
   event.shapeless('4x kubejs:sugarcane_strip',[
       'tfc:food/sugarcane',

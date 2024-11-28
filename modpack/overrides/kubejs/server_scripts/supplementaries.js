@@ -40,8 +40,6 @@ event.recipes.tfc.anvil('supplementaries:netherite_trapdoor', 'tfc:metal/sheet/b
 event.recipes.tfc.anvil('supplementaries:wrench', 'tfc:metal/ingot/copper', ["bend_last", "draw_second_last", "draw_third_last"]).tier(1)
 event.recipes.tfc.anvil('kubejs:candle_holder', 'tfc:metal/ingot/steel', ['punch_last', 'draw_not_last', 'hit_not_last']).tier(4)
 
-event.recipes.tfc.heating('kubejs:unfired_urn', 1399).resultItem('supplementaries:urn')
-
 event.recipes.tfc.barrel_sealed(1000)
   .outputItem('supplementaries:flag_white')
   .inputs('#supplementaries:flags', TFC.fluidStackIngredient('tfc:lye',25))
