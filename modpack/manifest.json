@@ -11,9 +11,9 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Gaelmare<2gaelmare@gmail.com> and Neusion",
-  "name": "ArsFirmaCraft",
+  "name": "Essential+ TFC",
   "files": [
     {
       "projectID": 60089,
@@ -234,6 +234,17 @@
       }
     },
     {
+      "projectID": 412082,
+      "fileID": 5928556,
+      "required": true,
+      "__meta": {
+        "name": "Supplementaries",
+        "dependencies": [
+          499980
+        ]
+      }
+    },
+    {
       "projectID": 416294,
       "fileID": 5655836,
       "required": true,
@@ -310,6 +321,15 @@
       }
     },
     {
+      "projectID": 499980,
+      "fileID": 5942980,
+      "required": true,
+      "__meta": {
+        "name": "Moonlight Lib",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 520973,
       "fileID": 5802811,
       "required": true,
@@ -324,6 +344,14 @@
       "__meta": {
         "name": "Balm",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 533748,
+      "fileID": 5275068,
+      "required": true,
+      "__meta": {
+        "name": "Chalk"
       }
     },
     {
@@ -487,6 +515,14 @@
           302973,
           916493
         ]
+      }
+    },
+    {
+      "projectID": 847065,
+      "fileID": 5864318,
+      "required": true,
+      "__meta": {
+        "name": "TFC Desire Paths"
       }
     },
     {
