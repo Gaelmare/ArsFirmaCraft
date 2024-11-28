@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ArsFirmaCraft">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.out/ArsFirmaCraft.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
