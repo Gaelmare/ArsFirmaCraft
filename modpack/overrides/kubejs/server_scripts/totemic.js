@@ -17,23 +17,20 @@ ServerEvents.recipes(event => {
   event.replaceInput(
     { output: 'totemic:totem_whittling_knife' },
     'minecraft:iron_ingot',
-    'tfc:metal/knife/wrought_iron'
+    'tfc:metal/knife_blade/copper'
     )
 
 
 event.recipes.tfc.anvil('2x totemic:iron_bells', 'tfc:metal/ingot/wrought_iron', ['draw_not_last','upset_not_last','bend_last']).tier(3)
 
-//event.replaceInput({output: 'chalk:chalk_box'}, 'minecraft:paper', 'tfc:unrefined_paper')
+})
 
-event.shaped('4x chalk:white_chalk', [
-  'BC',
-  'B ',
-], {
-  B: 'tfc:brick/chalk',
-  C: '#tfc:chisels'
-}
-).damageIngredient(Ingredient.of('#tfc:chisels'))
-
-
-
+ServerEvents.tags('item', event => {
+    event.remove('forge:leather', 'totemic:buffalo_hide')
+    //event.add('minecraft:logs_that_burn', '#tfc:firepit_logs')
+    const logs = event.get('tfc:firepit_logs').getObjectIds()
+    const blacklist = Ingredient.of(/minecraft:.*/)
+    logs.forEach(log => {
+      if (!blacklist.test(log)) event.add('minecraft:logs_that_burn', log)
+    })
 })
