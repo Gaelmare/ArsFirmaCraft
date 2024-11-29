@@ -11,8 +11,15 @@ ServerEvents.recipes(event => {
   event.replaceInput(
     { input: 'totemic:buffalo_hide' },
     'totemic:buffalo_hide',
-    'minecraft:leather'
+    '#forge:leather'
     )
+
+  event.replaceInput(
+    { output: 'totemic:totem_whittling_knife' },
+    'minecraft:iron_ingot',
+    'tfc:metal/knife/wrought_iron'
+    )
+
 
 event.recipes.tfc.anvil('2x totemic:iron_bells', 'tfc:metal/ingot/wrought_iron', ['draw_not_last','upset_not_last','bend_last']).tier(3)
 

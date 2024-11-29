@@ -195,7 +195,7 @@ ServerEvents.recipes(event => {
   event.shaped('4x minecraft:bricks', [
     'BMB',
     'MBM',
-    'BMB'
+    'BMB'recipe
   ],{
     B: 'minecraft:brick',
     M: 'tfc:mortar'

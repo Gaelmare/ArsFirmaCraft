@@ -13,7 +13,7 @@
         "item": "minecraft:paper"
       },
       "L": {
-        "item": "minecraft:candle"
+        "item": "tfc:candle"
       }
     },
     "result": {

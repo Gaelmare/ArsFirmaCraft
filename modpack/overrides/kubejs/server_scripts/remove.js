@@ -1,6 +1,7 @@
 // priority: 0
 
 const remove = [
+  'totemic:buffalo_hide',
   'comforts:rope_and_nail',
   'minecraft:flower_banner_pattern',
   'minecraft:creeper_banner_pattern',

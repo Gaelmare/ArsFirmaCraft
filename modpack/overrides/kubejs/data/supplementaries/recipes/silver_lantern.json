@@ -10,7 +10,7 @@
         "item": "tfc:metal/sheet/sterling_silver"
       },
       "L": {
-        "item": "minecraft:candle"
+        "item": "tfc:candle"
       }
     },
     "result": {

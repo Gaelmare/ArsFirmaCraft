@@ -10,7 +10,7 @@
         "item": "tfc:metal/sheet/brass"
       },
       "L": {
-        "item": "minecraft:candle"
+        "item": "tfc:candle"
       }
     },
     "result": {

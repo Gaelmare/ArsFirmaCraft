@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
 
 event.recipes.tfc.anvil('supplementaries:goblet', 'tfc:metal/ingot/wrought_iron', ['upset_not_last','shrink_any','bend_last']).tier(3)
 event.recipes.tfc.anvil('supplementaries:bubble_blower', 'tfc:metal/ingot/tin', ["draw_not_last", "bend_any", "hit_any"]).tier(1)
-event.recipes.tfc.anvil('supplementaries:weather_vane', 'tfc:metal/double_ingot/wrought_iron', ['draw_not_last', 'shrink_not_last', 'shrink_last']).tier(3)
+event.recipes.tfc.anvil('supplementaries:wind_vane', 'tfc:metal/double_ingot/wrought_iron', ['draw_not_last', 'shrink_not_last', 'shrink_last']).tier(3)
 event.recipes.tfc.anvil('supplementaries:gold_door', 'tfc:metal/sheet/gold', ["hit_last", "draw_not_last", "punch_not_last"]).tier(1)
 event.recipes.tfc.anvil('supplementaries:gold_trapdoor', 'tfc:metal/sheet/gold', ["bend_last", "draw_second_last", "draw_third_last"]).tier(1)
 event.recipes.tfc.anvil('supplementaries:iron_gate', 'tfc:metal/bars/wrought_iron', ["draw_third_last", "shrink_second_last", "shrink_last"]).tier(3)
