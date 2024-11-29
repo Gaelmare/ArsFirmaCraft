@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "tfc:wood/log/white_cedar",
+    "tfc:wood/stripped_log/white_cedar"
+  ]
+}

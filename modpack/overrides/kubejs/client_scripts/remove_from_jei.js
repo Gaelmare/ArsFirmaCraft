@@ -7,51 +7,47 @@ const hideCat=[
 
 JEIEvents.removeCategories(event => {
 
-	function myFunction(value) {
+	function rmCat(value) {
 	  event.remove(value)
 	}
-	
-	hideCat.forEach(myFunction);
+
+	hideCat.forEach(rmCat);
 
 })
 
-
-
-JEIEvents.hideItems(event => {
-
-	let hideItem=[
-		'supplementaries:daub_frame',
-		'supplementaries:daub',
-		'supplementaries:daub_brace',
-		'supplementaries:daub_cross_brace',
-		'supplementaries:sconce',
-		'supplementaries:sconce_soul',
-		'supplementaries:sconce_lever',
-		'supplementaries:stone_tile',
-		'supplementaries:stone_tile_stairs',
-		'supplementaries:stone_tile_slab',
-		'supplementaries:stone_tile_wall',
-		'supplementaries:blackstone_tile',
-		'supplementaries:blackstone_tile_stairs',
-		'supplementaries:blackstone_tile_slab',
-		'supplementaries:blackstone_tile_wall',
-		'supplementaries:lapis_bricks',
-		'supplementaries:lapis_bricks_stairs',
-		'supplementaries:lapis_bricks_slab',
-		'supplementaries:lapis_bricks_wall',
-		'supplementaries:raked_gravel',
-		'supplementaries:wild_flax',
-		'supplementaries:flax_seeds',
-		'supplementaries:flax_block',
-		'supplementaries:flax',
-		'supplementaries:stone_lamp',
-		'supplementaries:end_stone_lamp',
-		'supplementaries:deepslate_lamp',
-		'supplementaries:blackstone_lamp',
-		'minecraft:copper_ingot',
-		'supplementaries:bellows',
-		'supplementaries:pancake',
-		'minecraft:oak_log',
+const hideItem=[
+    'supplementaries:daub_frame',
+    'supplementaries:daub',
+    'supplementaries:daub_brace',
+    'supplementaries:daub_cross_brace',
+    'supplementaries:sconce',
+    'supplementaries:sconce_soul',
+    'supplementaries:sconce_lever',
+    'supplementaries:stone_tile',
+    'supplementaries:stone_tile_stairs',
+    'supplementaries:stone_tile_slab',
+    'supplementaries:stone_tile_wall',
+    'supplementaries:blackstone_tile',
+    'supplementaries:blackstone_tile_stairs',
+    'supplementaries:blackstone_tile_slab',
+    'supplementaries:blackstone_tile_wall',
+    'supplementaries:lapis_bricks',
+    'supplementaries:lapis_bricks_stairs',
+    'supplementaries:lapis_bricks_slab',
+    'supplementaries:lapis_bricks_wall',
+    'supplementaries:raked_gravel',
+    'supplementaries:wild_flax',
+    'supplementaries:flax_seeds',
+    'supplementaries:flax_block',
+    'supplementaries:flax',
+    'supplementaries:stone_lamp',
+    'supplementaries:end_stone_lamp',
+    'supplementaries:deepslate_lamp',
+    'supplementaries:blackstone_lamp',
+    'supplementaries:bellows',
+    'supplementaries:pancake',
+    'minecraft:copper_ingot',
+    'minecraft:oak_log',
 	'minecraft:oak_wood',
 	'minecraft:stripped_oak_log',
 	'minecraft:stripped_oak_wood',
@@ -580,7 +576,7 @@ JEIEvents.hideItems(event => {
 	'minecraft:lantern',
 	'minecraft:soul_lantern',
 	'minecraft:end_rod',
-	'minecraft:crafting_table',
+//	'minecraft:crafting_table', // hiding this hides all crafting recipes!
 	'minecraft:stonecutter',
 	'minecraft:fletching_table',
 	'minecraft:grindstone',
@@ -882,10 +878,15 @@ JEIEvents.hideItems(event => {
 	'minecraft:wolf_spawn_egg',
 	'minecraft:zoglin_spawn_egg',
 	'minecraft:zombified_piglin_spawn_egg'
-	].forEach(items=>{
-		event.hide(items)
-	})
-  })
+	]
+
+JEIEvents.hideItems(event => {
+	function hide(item) {
+	  event.hide(item)
+	}
+
+	hideItem.forEach(hide);
+})
   
 
 
