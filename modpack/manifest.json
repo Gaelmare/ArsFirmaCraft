@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Gaelmare<2gaelmare@gmail.com> and Neusion",
   "name": "Essential+ TFC",
   "files": [
@@ -147,7 +147,7 @@
     },
     {
       "projectID": 302973,
-      "fileID": 5571484,
+      "fileID": 5943050,
       "required": true,
       "__meta": {
         "name": "TerraFirmaCraft",
@@ -243,7 +243,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 5928556,
+      "fileID": 5944280,
       "required": true,
       "__meta": {
         "name": "Supplementaries",
