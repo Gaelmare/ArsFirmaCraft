@@ -2,6 +2,9 @@
 
 ServerEvents.recipes(event => {
 
+  event.remove({ input: 'totemic:cedar_planks' , output: "minecraft:stick"})
+  event.remove({ input: 'totemic:buffalo_hide' , output: "minecraft:leather"})
+
   event.replaceInput(
     { input: 'totemic:cedar_planks' },
     'totemic:cedar_planks',
@@ -33,4 +36,25 @@ ServerEvents.tags('item', event => {
     logs.forEach(log => {
       if (!blacklist.test(log)) event.add('minecraft:logs_that_burn', log)
     })
+})
+
+ServerEvents.entityLootTables( event => {
+  event.modifyEntity('tfc:wildebeest', table => {
+    table.addPool(pool => {
+      pool.addItem('totemic:buffalo_tooth', 1, [0, 2])
+      pool.addItem('totemic:buffalo_hide', 1, [0, 2])
+    })
+  })
+  event.modifyEntity('tfc:yak', table => {
+    table.addPool(pool => {
+      pool.addItem('totemic:buffalo_tooth', 1, [0, 2])
+      pool.addItem('totemic:buffalo_hide', 1, [0, 2])
+    })
+  })
+  event.modifyEntity('tfc:musk_ox', table => {
+    table.addPool(pool => {
+      pool.addItem('totemic:buffalo_tooth', 1, [0, 2])
+      pool.addItem('totemic:buffalo_hide', 1, [0, 2])
+    })
+  })
 })

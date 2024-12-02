@@ -230,9 +230,9 @@
 [building]
 	lapis_bricks = true
 	deepslate_lamp = false
-	end_stone_lamp = true
-	blackstone_lamp = true
-	stone_lamp = true
+	end_stone_lamp = false
+	blackstone_lamp = false
+	stone_lamp = false
 	stone_tile = true
 	blackstone_tile = true
 	bunting = true
