@@ -24,93 +24,93 @@
 #    barkColor = 54  #optional
 
 [[customTotemWoodTypes]]
-id = "beneath:wood/log/crimson"
-logs = "#tfc:crimson_logs"
-woodColor = 53
-barkColor = 54
+	id = "beneath:wood/log/crimson"
+	logs = "#tfc:crimson_logs"
+	woodColor = 53
+	barkColor = 54
 
 [[customTotemWoodTypes]]
-id = "beneath:wood/log/warped"
-logs = "#tfc:warped_logs"
-woodColor = 55
-barkColor = 56
+	id = "beneath:wood/log/warped"
+	logs = "#tfc:warped_logs"
+	woodColor = 55
+	barkColor = 56
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/acacia"
-logs = "#tfc:acacia_logs"
+	id = "tfc:wood/log/acacia"
+	logs = "#tfc:acacia_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/ash"
-logs = "#tfc:ash_logs"
+	id = "tfc:wood/log/ash"
+	logs = "#tfc:ash_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/aspen"
-logs = "#tfc:aspen_logs"
+	id = "tfc:wood/log/aspen"
+	logs = "#tfc:aspen_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/birch"
-logs = "#tfc:birch_logs"
+	id = "tfc:wood/log/birch"
+	logs = "#tfc:birch_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/blackwood"
-logs = "#tfc:blackwood_logs"
+	id = "tfc:wood/log/blackwood"
+	logs = "#tfc:blackwood_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/chestnut"
-logs = "#tfc:chestnut_logs"
+	id = "tfc:wood/log/chestnut"
+	logs = "#tfc:chestnut_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/douglas_fir"
-logs = "#tfc:douglas_fir_logs"
+	id = "tfc:wood/log/douglas_fir"
+	logs = "#tfc:douglas_fir_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/hickory"
-logs = "#tfc:hickory_logs"
+	id = "tfc:wood/log/hickory"
+	logs = "#tfc:hickory_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/kapok"
-logs = "#tfc:kapok_logs"
+	id = "tfc:wood/log/kapok"
+	logs = "#tfc:kapok_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/mangrove"
-logs = "#tfc:mangrove_logs"
+	id = "tfc:wood/log/mangrove"
+	logs = "#tfc:mangrove_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/maple"
-logs = "#tfc:maple_logs"
+	id = "tfc:wood/log/maple"
+	logs = "#tfc:maple_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/oak"
-logs = "#tfc:oak_logs"
+	id = "tfc:wood/log/oak"
+	logs = "#tfc:oak_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/palm"
-logs = "#tfc:palm_logs"
+	id = "tfc:wood/log/palm"
+	logs = "#tfc:palm_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/pine"
-logs = "#tfc:pine_logs"
+	id = "tfc:wood/log/pine"
+	logs = "#tfc:pine_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/rosewood"
-logs = "#tfc:rosewood_logs"
+	id = "tfc:wood/log/rosewood"
+	logs = "#tfc:rosewood_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/sequoia"
-logs = "#tfc:sequoia_logs"
+	id = "tfc:wood/log/sequoia"
+	logs = "#tfc:sequoia_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/spruce"
-logs = "#tfc:spruce_logs"
+	id = "tfc:wood/log/spruce"
+	logs = "#tfc:spruce_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/sycamore"
-logs = "#tfc:sycamore_logs"
+	id = "tfc:wood/log/sycamore"
+	logs = "#tfc:sycamore_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/white_cedar"
-logs = "#tfc:white_cedar_logs"
+	id = "tfc:wood/log/white_cedar"
+	logs = "#tfc:white_cedar_logs"
 
 [[customTotemWoodTypes]]
-id = "tfc:wood/log/willow"
-logs = "#tfc:willow_logs"
+	id = "tfc:wood/log/willow"
+	logs = "#tfc:willow_logs"
