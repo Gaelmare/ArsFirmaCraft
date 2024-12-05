@@ -1,7 +1,23 @@
 // priority: 0
 
 const remove = [
-  'totemic:buffalo_hide',
+  'totemic:stripped_cedar_wood',
+  'totemic:cedar_wood',
+  'totemic:stripped_cedar_log',
+  'totemic:cedar_log',
+  'totemic:cedar_leaves',
+  'totemic:cedar_sapling',
+  'totemic:cedar_planks',
+  'totemic:cedar_button',
+  'totemic:cedar_fence',
+  'totemic:cedar_fence_gate',
+  'totemic:cedar_pressure_plate',
+  'totemic:cedar_slab',
+  'totemic:cedar_stairs',
+  'totemic:cedar_door',
+  'totemic:cedar_trapdoor',
+  'totemic:cedar_sign',
+  'totemic:cedar_hanging_sign',
   'comforts:rope_and_nail',
   'minecraft:flower_banner_pattern',
   'minecraft:creeper_banner_pattern',
@@ -79,8 +95,8 @@ const remove = [
   'supplementaries:candle_holder',
   "minecraft:stonecutter",
   "minecraft:iron_bars",
-  "simpleradio:speaker_module",
   "minecraft:iron_block",
+  'minecraft:copper_ingot',
   'supplementaries:daub_frame',
   'supplementaries:daub',
   'supplementaries:daub_brace',
@@ -109,7 +125,6 @@ const remove = [
   'supplementaries:end_stone_lamp',
   'supplementaries:deepslate_lamp',
   'supplementaries:blackstone_lamp',
-  'minecraft:copper_ingot',
   'supplementaries:bellows',
   'supplementaries:pancake',
 ];
@@ -146,21 +161,21 @@ ServerEvents.recipes(event => {
   'magenta',
   'orange',
   'black'
-].forEach(colour =>[
-  event.remove('supplementaries:flag_' + colour),
-  event.remove({id: 'supplementaries:candle_holders/candle_holder_' + colour}),
-  event.remove({id: 'supplementaries:based_candles/'+colour+'_candle_holder'}),
-  event.remove({id: 'comforts:sleeping_bag_' + colour}),
-  event.remove({id: 'comforts:hammock_' + colour})
-])
+  ].forEach(colour =>[
+    event.remove('supplementaries:flag_' + colour),
+    event.remove({id: 'supplementaries:candle_holders/candle_holder_' + colour}),
+    event.remove({id: 'supplementaries:based_candles/'+colour+'_candle_holder'}),
+    event.remove({id: 'comforts:sleeping_bag_' + colour}),
+    event.remove({id: 'comforts:hammock_' + colour})
+  ])
 
-event.remove({ mod: 'chalk', output: '#chalk:chalks' })
+  event.remove({ mod: 'chalk', output: '#chalk:chalks' })
 
-function myFunction(value) {
-  event.remove({ output: value })
-}
+  function myFunction(value) {
+    event.remove({ output: value })
+  }
 
-remove.forEach(myFunction);
+  remove.forEach(myFunction);
 
-console.log('Hello! The recipe event has fired!')
+  console.log('Hello! The recipe event has fired!')
 })

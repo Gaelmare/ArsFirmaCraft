@@ -202,8 +202,16 @@ ServerEvents.recipes(event => {
   })
   */
 
-
-
+// Still here, after all these years!
+  event.shaped('minecraft:bucket', [
+    'IRI',
+    'IBI',
+    ' I '
+  ],{
+    R: 'tfc:metal/bucket/red_steel',
+    B: 'tfc:metal/bucket/blue_steel',
+    I: 'tfc:metal/ingot/wrought_iron'
+  }).id('essentialsplus:you_won_tfc')
 
   event.recipes.tfc.barrel_sealed(8000)
     .outputItem('tfc:soaked_papyrus_strip')
