@@ -9,3 +9,4 @@ cacert.pem
 .out/
 server
 /logs/
+/zip

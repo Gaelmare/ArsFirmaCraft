@@ -92,7 +92,7 @@
     },
     {
       "projectID": 254284,
-      "fileID": 5844477,
+      "fileID": 5968059,
       "required": true,
       "__meta": {
         "name": "AmbientSounds 6",
@@ -103,7 +103,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 5949577,
+      "fileID": 5966519,
       "required": true,
       "__meta": {
         "name": "CreativeCore",
@@ -176,7 +176,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 5816907,
+      "fileID": 5964714,
       "required": true,
       "__meta": {
         "name": "Corpse"
@@ -196,6 +196,15 @@
       "required": true,
       "__meta": {
         "name": "Jade 🔍"
+      }
+    },
+    {
+      "projectID": 326652,
+      "fileID": 5470032,
+      "required": true,
+      "__meta": {
+        "name": "Cupboard",
+        "explicit": false
       }
     },
     {
@@ -287,6 +296,14 @@
       }
     },
     {
+      "projectID": 433068,
+      "fileID": 5015286,
+      "required": true,
+      "__meta": {
+        "name": "Presence Footsteps [Forge]"
+      }
+    },
+    {
       "projectID": 447359,
       "fileID": 5572100,
       "required": true,
@@ -299,7 +316,7 @@
     },
     {
       "projectID": 448233,
-      "fileID": 5866395,
+      "fileID": 5968677,
       "required": true,
       "__meta": {
         "name": "Entity Culling Fabric/Forge"
@@ -307,7 +324,7 @@
     },
     {
       "projectID": 453394,
-      "fileID": 5914955,
+      "fileID": 5981459,
       "required": true,
       "__meta": {
         "name": "FirmaLife",
@@ -366,11 +383,19 @@
     },
     {
       "projectID": 499980,
-      "fileID": 5942980,
+      "fileID": 5975794,
       "required": true,
       "__meta": {
         "name": "Moonlight Lib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 508933,
+      "fileID": 5689279,
+      "required": true,
+      "__meta": {
+        "name": "Distant Horizons: A Level of Detail mod"
       }
     },
     {
@@ -392,15 +417,34 @@
     },
     {
       "projectID": 533748,
-      "fileID": 5275068,
+      "fileID": 5979807,
       "required": true,
       "__meta": {
         "name": "Chalk"
       }
     },
     {
+      "projectID": 535489,
+      "fileID": 5982090,
+      "required": true,
+      "__meta": {
+        "name": "Sound Physics Remastered"
+      }
+    },
+    {
+      "projectID": 551520,
+      "fileID": 5723247,
+      "required": true,
+      "__meta": {
+        "name": "Better Fps - Render Distance[Forge]",
+        "dependencies": [
+          326652
+        ]
+      }
+    },
+    {
       "projectID": 551736,
-      "fileID": 4731947,
+      "fileID": 5807537,
       "required": true,
       "__meta": {
         "name": "Sodium/Embeddium Dynamic Lights"
@@ -421,14 +465,6 @@
       "required": true,
       "__meta": {
         "name": "Responsive Shields"
-      }
-    },
-    {
-      "projectID": 558905,
-      "fileID": 4632207,
-      "required": true,
-      "__meta": {
-        "name": "Sodium/Embeddium Extras"
       }
     },
     {
@@ -533,7 +569,7 @@
     },
     {
       "projectID": 686911,
-      "fileID": 5894645,
+      "fileID": 5959896,
       "required": true,
       "__meta": {
         "name": "ImmediatelyFast"
@@ -572,7 +608,7 @@
     },
     {
       "projectID": 790626,
-      "fileID": 5876359,
+      "fileID": 5972258,
       "required": true,
       "__meta": {
         "name": "ModernFix"
@@ -668,7 +704,7 @@
     },
     {
       "projectID": 908741,
-      "fileID": 4984832,
+      "fileID": 5681725,
       "required": true,
       "__meta": {
         "name": "Embeddium"
@@ -697,6 +733,25 @@
       "required": true,
       "__meta": {
         "name": "TFC Canes"
+      }
+    },
+    {
+      "projectID": 927564,
+      "fileID": 5861244,
+      "required": true,
+      "__meta": {
+        "name": "Zume"
+      }
+    },
+    {
+      "projectID": 931925,
+      "fileID": 5436746,
+      "required": true,
+      "__meta": {
+        "name": "Embeddium++",
+        "dependencies": [
+          908741
+        ]
       }
     },
     {
@@ -731,12 +786,31 @@
       }
     },
     {
+      "projectID": 1062270,
+      "fileID": 5943296,
+      "required": true,
+      "__meta": {
+        "name": "TFCGenViewer",
+        "dependencies": [
+          302973
+        ]
+      }
+    },
+    {
       "projectID": 1068445,
       "fileID": 5815914,
       "required": true,
       "__meta": {
         "name": "aleki's Nifty Ships",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 1079488,
+      "fileID": 5789933,
+      "required": true,
+      "__meta": {
+        "name": "Open Third Person"
       }
     },
     {
