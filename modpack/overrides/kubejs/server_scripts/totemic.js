@@ -15,6 +15,14 @@ ServerEvents.recipes(event => {
     'tfc:wood/planks/white_cedar'
   )
 
+  event.replaceInput(
+    { input: 'totemic:cedar_leaves' },
+    'totemic:cedar_leaves',
+    '#minecraft:leaves'
+  )
+
+
+
   event.remove({ id: 'totemic:wind_chime' })
 
   event.shaped('totemic:wind_chime', [
