@@ -700,6 +700,14 @@
       }
     },
     {
+      "projectID": 952386,
+      "fileID": 5677386,
+      "required": true,
+      "__meta": {
+        "name": "TFC Vessel Tooltip"
+      }
+    },
+    {
       "projectID": 999031,
       "fileID": 5307466,
       "required": true,
