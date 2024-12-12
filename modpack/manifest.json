@@ -296,14 +296,6 @@
       }
     },
     {
-      "projectID": 433068,
-      "fileID": 5015286,
-      "required": true,
-      "__meta": {
-        "name": "Presence Footsteps [Forge]"
-      }
-    },
-    {
       "projectID": 447359,
       "fileID": 5572100,
       "required": true,
@@ -391,14 +383,6 @@
       }
     },
     {
-      "projectID": 508933,
-      "fileID": 5689279,
-      "required": true,
-      "__meta": {
-        "name": "Distant Horizons: A Level of Detail mod"
-      }
-    },
-    {
       "projectID": 520973,
       "fileID": 5802811,
       "required": true,
@@ -421,14 +405,6 @@
       "required": true,
       "__meta": {
         "name": "Chalk"
-      }
-    },
-    {
-      "projectID": 535489,
-      "fileID": 5982090,
-      "required": true,
-      "__meta": {
-        "name": "Sound Physics Remastered"
       }
     },
     {
