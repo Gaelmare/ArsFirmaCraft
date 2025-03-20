@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Gaelmare<2gaelmare@gmail.com> and Neusion",
   "name": "Essential+ TFC",
   "files": [
@@ -33,7 +33,7 @@
     },
     {
       "projectID": 237541,
-      "fileID": 5779403,
+      "fileID": 6001761,
       "required": true,
       "__meta": {
         "name": "Totemic"
@@ -103,7 +103,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 5966519,
+      "fileID": 5999532,
       "required": true,
       "__meta": {
         "name": "CreativeCore",
@@ -147,7 +147,7 @@
     },
     {
       "projectID": 302973,
-      "fileID": 5943050,
+      "fileID": 5994481,
       "required": true,
       "__meta": {
         "name": "TerraFirmaCraft",
@@ -176,7 +176,7 @@
     },
     {
       "projectID": 316582,
-      "fileID": 5964714,
+      "fileID": 5985511,
       "required": true,
       "__meta": {
         "name": "Corpse"
@@ -184,7 +184,7 @@
     },
     {
       "projectID": 317780,
-      "fileID": 5658224,
+      "fileID": 5987149,
       "required": true,
       "__meta": {
         "name": "Xaero's World Map"
@@ -375,7 +375,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 5975794,
+      "fileID": 6000197,
       "required": true,
       "__meta": {
         "name": "Moonlight Lib",
@@ -392,7 +392,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 5644976,
+      "fileID": 5999476,
       "required": true,
       "__meta": {
         "name": "Balm",
@@ -584,7 +584,7 @@
     },
     {
       "projectID": 790626,
-      "fileID": 5972258,
+      "fileID": 5986634,
       "required": true,
       "__meta": {
         "name": "ModernFix"
@@ -763,7 +763,7 @@
     },
     {
       "projectID": 1062270,
-      "fileID": 5943296,
+      "fileID": 5994665,
       "required": true,
       "__meta": {
         "name": "TFCGenViewer",

@@ -66,6 +66,11 @@ ServerEvents.tags('item', event => {
     event.add('totemic:cedar_logs', '#tfc:white_cedar_logs')
 })
 
+ServerEvents.tags('entity_type', event => {
+  event.add('totemic:buffalo_dance_targets', 'tfc:cow', 'tfc:wildebeest', 'tfc:yak', 'tfc:musk_ox')
+  event.add('totemic:eagle_dance_targets', 'tfc:pheasant', 'tfc:penguin', 'tfc:turkey', 'tfc:chicken', 'tfc:duck', 'tfc:grouse', 'tfc:quail', 'tfc:peafowl')
+})
+
 ServerEvents.entityLootTables( event => {
   event.modifyEntity('tfc:wildebeest', table => {
     table.addPool(pool => {

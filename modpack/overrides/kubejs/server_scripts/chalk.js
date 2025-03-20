@@ -8,12 +8,13 @@ event.recipes.tfc.barrel_sealed(1000)
 
 event.replaceInput({output: 'chalk:chalk_box'}, 'minecraft:paper', 'tfc:unrefined_paper')
 
-event.shaped('4x chalk:white_chalk', [
+event.shaped('2x chalk:white_chalk', [
   'BC',
-  'B ',
+  'S ',
 ], {
   B: 'tfc:brick/chalk',
-  C: '#tfc:chisels'
+  C: '#tfc:chisels',
+  S: '#forge:rods/wooden'
 }
 ).damageIngredient(Ingredient.of('#tfc:chisels'))
 
